@@ -1,0 +1,13 @@
+{
+    "CRS.FileNamePattern": "<ObjectTypeShort><ObjectId>.<ObjectNameShort>.al",
+    "CRS.FileNamePatternExtensions": "<ObjectTypeShort><BaseId>-Ext<ObjectId>.<ObjectNameShort>.al",
+    "CRS.OnSaveAlFileAction": "Rename",
+    "al.ruleSetPath": "ruleset.json", 
+    "al.enableCodeAnalysis": true,
+    "al.codeAnalyzers": [
+        "${CodeCop}",
+        "${PerTenantExtensionCop}",
+        "${AppSourceCop}",
+        "${UICop}"
+    ]
+}

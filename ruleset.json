@@ -1,0 +1,41 @@
+{
+    "name": "Ruleset",
+    "description": "Adjusted Rules",
+    "rules": [
+        {
+            "id": "AA0215",
+            "action": "Hidden",
+            "justification": "Use XPL standard file naming convention"
+        },
+        {
+            "id": "AA0214",
+            "action": "Hidden",
+            "justification": "Erroneous error where local var used for lookup gets: record should be modified before saving"
+       },      
+       { 
+            "id": "AL0603",        
+            "action": "Hidden",         
+            "justification": "Implicit conversion from Enum to Integer. Hide warning until the bug is fixed by MS"
+       },
+        {
+        "id": "AA0005",
+        "action": "Hidden",
+            "justification": "This is OK -> Avoid AA0005 warning notification for BEGIN .. END only with compound statements"
+       },
+       {
+        "id": "AS0084",
+        "action": "Hidden",
+            "justification": "This is OK -> Avoid AA0005 warning notification for BEGIN .. END only with compound statements"
+       },
+       {
+        "id": "AA0072",
+        "action": "Hidden",
+            "justification": "This is OK -> Avoid AA0005 warning notification for BEGIN .. END only with compound statements"
+       },
+       {
+        "id": "AL0604",
+        "action": "Hidden",
+            "justification": "We can't use Rec. for ENUM fields, thank you Microsoft"
+       }
+    ]
+}
