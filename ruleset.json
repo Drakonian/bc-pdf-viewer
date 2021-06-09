@@ -35,7 +35,7 @@
        {
         "id": "AL0604",
         "action": "Hidden",
-            "justification": "We can't use Rec. for ENUM fields, thank you Microsoft"
+            "justification": "Not actual rule?"
        }
     ]
 }
