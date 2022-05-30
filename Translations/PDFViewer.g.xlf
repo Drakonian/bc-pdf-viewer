@@ -98,6 +98,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page PDFV PDF Viewer Matrix - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 1083339312 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PDF Viewer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PDFV PDFViewerDocAttachament - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1903651816 - Action 248041433 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
           <source>PDF Storage</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -117,6 +122,21 @@
           <source>PDF Storage</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension PDFV Customer List - Action PDFVPDFStorage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1570834689 - Action 2344956037 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 219593816">
+          <source>View PDF</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PDFV Document Attachment Detai - Action PDFV View PDF - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1570834689 - Action 2344956037 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 219593816">
+          <source>View PDF</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PDFV Document Attachment Detai - Action PDFV View PDF - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PermissionSet 1425421524 - Property 2879900210" maxwidth="30" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PDFViewer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet PDFViewer - Property Caption</note>
         </trans-unit>
       </group>
     </body>

@@ -2,7 +2,7 @@
   "id": "630af0aa-a687-46a3-b0d1-69e5522ed65c",
   "name": "PDFViewer",
   "publisher": "Volodymyr Dvernytskyi",
-  "version": "1.0.0.0",
+  "version": "1.0.0.1",
   "brief": "https://vld-nav.com/",
   "description": "https://vld-nav.com/",
   "privacyStatement": "https://vld-nav.com/",
@@ -12,8 +12,8 @@
   "logo": "./logo.png",
   "dependencies": [],
   "screenshots": [],
-  "platform": "18.0.0.0",
-  "application": "18.0.0.0",
+  "platform": "20.0.0.0",
+  "application": "20.0.0.0",
   "idRanges": [
     {
       "from": 80000,
@@ -21,7 +21,12 @@
     }
   ],
   "contextSensitiveHelpUrl": "https://vld-nav.com/",
-  "showMyCode": true,
-  "runtime": "7.0",
-  "features": ["TranslationFile"]
+  "runtime": "9.0",
+  "features": ["TranslationFile"],
+  "resourceExposurePolicy":
+  {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  }
 }
